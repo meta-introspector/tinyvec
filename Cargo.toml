@@ -85,7 +85,7 @@ features = ["alloc", "std", "grab_spare_slice", "latest_stable_rust", "serde", "
 [profile.bench]
 debug = 2
 
-[workspace]
+#[workspace]
 members = ["fuzz"]
 
 [dev-dependencies]
